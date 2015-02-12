@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title> To Do's </title>
+		<link rel="stylesheet" href="styles/reset.css">
+		<link rel="stylesheet" href="styles/style.css">
+	</head>
+
+	<section id ='app-view'>
+
+	<h1> Your To-Do's </h1>
+
+	<input type='text' id='text-input-box' placeholder='Enter To-Do item'>
+	<div class="error"></div>
+
+	<ul id='display-list'>
+
+	</ul>
+
+	</section>
+
+	<script type='html' id='template'>
+		<li>  <%= itemToDo %> <input type="checkbox" class='item-check-box'> </li>
+	</script>
+
+	<body>
+
+		<script type='text/javascript' src='bower_components/jquery/dist/jquery.min.js'></script>
+		<script type='text/javascript' src='bower_components/underscore/underscore-min.js'></script>
+		<script type='text/javascript' src='bower_components/backbone/backbone.js'></script>
+		<script type='text/javascript' src='scripts/models/ToDoListModel.js'></script>
+		<script type='text/javascript' src='scripts/collections/ToDoListCollection.js'></script>
+		<script type='text/javascript' src='scripts/views/ListItemView.js'></script>
+		<script type='text/javascript' src='scripts/views/AppView.js'></script>
+		<script type='text/javascript' src='scripts/main.js'></script>
+	</body>
+</html>

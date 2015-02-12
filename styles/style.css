@@ -1,0 +1,45 @@
+html {
+  background-color: green;
+}
+#app-view {
+	text-align: left;
+	margin:0 auto;
+}
+
+h1 {
+	font-size:3em;
+	font-family: helvetica;
+	margin-top:1em;
+	margin-bottom: 0.5em;
+}
+
+input {
+	width:300px;
+	font-size:1.4em;
+}
+
+#text-input-box {
+	margin-bottom: 1em;
+  background-color: blue;
+}
+
+ul {
+	border-top:1px solid #88b0d8;
+}
+
+li {
+	line-height:1.4em;
+	margin: 0.4em 0.4em;
+	font-size:1em;
+  font-family: helvetica
+
+
+}
+
+.item-check-box {
+	text-decoration: none;
+}
+
+.item-check-box-striked {
+	text-decoration: line-through;
+}
